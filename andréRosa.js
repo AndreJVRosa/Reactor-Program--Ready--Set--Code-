@@ -37,7 +37,7 @@ function loadBooks(bookshelf) {
 }
 
 var BOOK_API = "https://some.url/api";
-var myBooks = new Bookshelf(`Jack's`);
+var myBooks = new BookShelf(`Jack's`);
 loadBooks(myBooks);
 
 var myBox = new CardBox(`Other Jack's`);
